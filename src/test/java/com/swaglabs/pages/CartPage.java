@@ -19,6 +19,7 @@ public class CartPage {
 	public void openCart() {
 		driver.findElement(cart).click();
 		System.out.println("cart page got opend");
+		System.out.println("cart page got opend");
 	}
 	public void doremoveproduct() {
 		driver.findElement(rbtn).click();
